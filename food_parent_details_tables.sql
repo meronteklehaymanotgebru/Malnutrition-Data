@@ -1,6 +1,4 @@
 
-Fiona Wesonga
-  11:04 AM
 create table malnutrition.parent_details(
 details_id VARCHAR(10) primary key,
 parent_id VARCHAR(10) references parent_table(parent_id),
