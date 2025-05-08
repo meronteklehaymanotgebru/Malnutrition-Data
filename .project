@@ -9,4 +9,21 @@
 	<natures>
 		<nature>org.jkiss.dbeaver.DBeaverNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Scripts/Scripts</name>
+			<type>2</type>
+			<location>//home/student/Star-Fish-Team/Scripts/</location>
+		</link>
+		<link>
+			<name>Scripts/parent.sql</name>
+			<type>1</type>
+			<location>/run/user/1001/doc/754f91c1/parent.sql</location>
+		</link>
+		<link>
+			<name>Scripts/parent_scripts</name>
+			<type>2</type>
+			<location>//home/student/Star-Fish-Team/parent_scripts/</location>
+		</link>
+	</linkedResources>
 </projectDescription>
