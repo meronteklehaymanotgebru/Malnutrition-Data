@@ -27,7 +27,7 @@ child_id VARCHAR(10) references child_details(child_id),
 food_item VARCHAR(10) references food_table(food_id),
 expiry_date DATE,
 nutritional_value VARCHAR(100),
-meals_per_day INT
+meals_per_day DATE
 );
 insert into malnutrition.distribution_table(distribution_id,child_id,food_id,quanitity,location,distribution_date)
 values('f01','c01','maize',2028-06-27,'carbohydrate',2),

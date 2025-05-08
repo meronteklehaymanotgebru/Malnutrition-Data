@@ -40,6 +40,26 @@
 				},
 				"auth-model": "native"
 			}
+		},
+		"postgres-jdbc-196aef08530-10d8d0d32a7c3603": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "postgres 3",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-chosen-role@": ""
+				},
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {
